@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+
+/* Font here! Use class="font-hi-melody to use */
+.font-hi-melody {
+    font-family: "Hi Melody", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg-pink {
+    background-color: #F9D6FA;
+}
+
+.bg-light-blue {
+    background-color: #B1EBFC;
+}
+
+.bg-purple {
+    background-color: #E7D5FA;
+}
+
+.nav-button {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    width: fit-content;
+    
+    font-family: "Hi Melody", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+
+#navbar {
+    display: inline-flex;
+    flex: auto;
+    flex-direction: row;
+}
+
+#image-grid {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    padding: 5px;
+    width: 50%;
+}
+
+/* Automatically formats the body to center elements */
+body {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+}

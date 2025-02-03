@@ -1,37 +1,70 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Joyce Kwack</title>
-  </head>
-  <body bgcolor="#F9D6FA">
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="aboutme.html">About Me</a>
-	<center>
-      <h1 style="font-family:'Courier New'">Home</h1>
-      <figure>
-	<img src="images/house.jpg" width="700" alt="centered image" class="aligncenter">
-      <figcaption style=font-family:"Courier New">
-	<em>Definitely my house!</em>
-	</figcaption>
-	</figure>
-      <br>
-	<h2 style="font-family:'Courier New'">Hobbies</h2>
-	<figure>
-	  <img src="images/violin.jpg" width="700" alt="centered image" class="aligncenter">
-      <figcaption style=font-family:"Courier New">
-	<em>Sometimes, I practice  violin</em>
+
+<head>
+   <meta charset="utf-8">
+   <title>Joyce Kwack</title>
+   <link rel="stylesheet" href="globals.css">
+   <style>
+      /* Automatically styles all figures */
+      figure {
+         /* Sets the image width to 50% of window*/
+         img {
+            width: 50%; 
+         }
+
+         /* Sets caption font to Hi Melody Serif 28 px */
+         figcaption {
+            font-family: "Hi Melody", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 24px;
+         }
+      }
+
+      
+   </style>
+</head>
+
+<body class="bg-pink">
+   <div id="navbar">
+      <a href="index.html">
+         <div class="nav-button">
+            <p>Home</p>
+         </div>
+      </a>
+      <a href="portfolio.html">
+         <div class="nav-button">
+            <p>Portfolio</p>
+         </div>
+      </a>
+      <a href="aboutme.html">
+         <div class="nav-button">
+            <p>About Me</p>
+         </div>
+      </a>
+   </div>
+   
+   <h1 class="font-hi-melody">Home</h1>
+   <figure>
+      <img src="images/house.jpg" width="700" alt="centered image" class="aligncenter">
+      <figcaption>
+         <em>Definitely my house!</em>
       </figcaption>
-	</figure>
-	<br>
-	<figure>
-	  <img src="images/book.jpg" width="700" alt="centered image" class="aligncenter">
-      <figcaption style=font-family:"Courier New">
-	<em>I enjoy reading fantasy/science fiction books</em>
+   </figure>
+   <br>
+   <h2 class="font-hi-melody">Hobbies</h2>
+   <figure>
+      <img src="images/violin.jpg" width="700" alt="centered image" class="aligncenter">
+      <figcaption>
+         <em>Sometimes, I practice violin</em>
       </figcaption>
-	</figure>
-	
-        
-   </center>
-  <br>
+   </figure>
+   <br>
+   <figure>
+      <img src="images/book.jpg" width="700" alt="centered image" class="aligncenter">
+      <figcaption>
+         <em>I enjoy reading fantasy/science fiction books</em>
+      </figcaption>
+   </figure>
+   <br>
